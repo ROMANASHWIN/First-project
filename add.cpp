@@ -1,10 +1,10 @@
 #include<iostream>
-using namespace std;
-int main()
+int add(int a, int b) {
+	return a + b;
+}
+
+int main(void)
 {
-	int a=10;
-	int b=6,result;
-	result=a+b;
-	cout<<result<<endl;
+	std::cout << add(2, 6) << std::endl;
 	return 0;
 }

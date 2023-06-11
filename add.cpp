@@ -6,5 +6,4 @@ int add(int a, int b) {
 int main(void)
 {
 	std::cout << add(2, 6) << std::endl;
-	return 0;
 }
